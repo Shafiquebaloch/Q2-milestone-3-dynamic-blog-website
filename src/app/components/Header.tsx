@@ -12,12 +12,12 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-black text-white shadow-lg sticky top-0 z-50">
+    <header className="bg-blue-600 text-white shadow-lg sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold flex items-center">
             <Brain className="mr-2" />
-             AI Insights
+            Mastering Next.js
           </Link>
           <div className="lg:hidden">
             <button onClick={toggleMenu} className="text-white focus:outline-none">

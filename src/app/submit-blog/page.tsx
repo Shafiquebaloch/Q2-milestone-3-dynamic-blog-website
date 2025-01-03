@@ -87,7 +87,7 @@ export default function SubmitBlogPage() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6 text-center text-heading">Submit Your Colorful AI Blog Post</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center text-heading">Submit Your Next JS Blog Post</h1>
       {error && (
         <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
           <strong className="font-bold">Error: </strong>

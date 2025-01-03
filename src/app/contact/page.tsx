@@ -29,10 +29,10 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold mb-8 text-center">Contact Us</h1>
       <div className="prose max-w-none mb-8">
         <p>
-          Have questions about AI? Want to contribute to our blog? Or perhaps you&apos;re interested in collaborating on an AI project? We&apos;d love to hear from you! Fill out the form below, and our team of AI enthusiasts will get back to you as soon as possible.
+          Have questions about Next js? Want to contribute to our blog? Or perhaps you&apos;re interested in collaborating on an Next js project? We&apos;d love to hear from you! Fill out the form below, and our team of Next js enthusiasts will get back to you as soon as possible.
         </p>
       </div>
-      <form onSubmit={handleSubmit} className="space-y-6 bg-black p-6 rounded-lg shadow-md">
+      <form onSubmit={handleSubmit} className="space-y-6 bg-blue-600 p-6 rounded-lg shadow-md">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-white">Name</label>
           <input
